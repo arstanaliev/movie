@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: url("./img/space_background_2_by_vav17_d9lb7db-pre.jpg") no-repeat center/cover fixed;
+}
+.container {
+    width: 87%;
+    margin: 0 auto;
+}
+#header {
+    background: #00002d;
+    padding: 20px 0;
+    opacity: 0.97;
+    z-index: 200;
+}
+.header img {
+    width: 100%;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+.header-menu a {
+    font-size: 1.5vmax;
+    color: white;
+    text-decoration: none;
+}
+.header-menu a:hover {
+    color: blue;
+    transition: 0.3s;
+}
+.playing {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 30px 0;
+}
+.playing div {
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.rated {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 30px 0;
+}
+.rated div {
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.popular {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 30px 0;
+}
+.popular div {
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.detail {
+    padding: 30px 0;
+}
+.detail img {
+    padding: 0 30px 0 0;
+    width: 40%;
+}
+.detail h4 {
+    padding: 15px 0;
+    display: flex;
+}
+.detail h4 span {
+    padding: 0 5px;
+    display: flex;
+    align-items: end;
+}
+.detail div {
+    color: white;
+    font-size: 20px;
+}
+.detail-title {
+    display: flex;
+}
+.detail-title h3 {
+    display: flex;
+    align-items: center;
+}
+.detail-title h3 button {
+    padding: 17px 10px;
+    background: #00002d;
+    border-radius: 50%;
+    text-align: center;
+    border: 3px solid green;
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.detail-overview {
+    width: 50%;
+}
+
+.slick-track {
+    display: flex;
+}
+#actors {
+    background: url("./img/AdobeStock_165796723.jpeg") no-repeat left/cover;
+}
+#trailers {
+    background: url("./img/istockphoto-1211623391-612x612.jpg")no-repeat left/cover;
+}
