@@ -60,8 +60,14 @@ const Actors = ({movieId}) => {
                                     </NavLink>
 
                                     <h1 style={{
-                                        color: 'white'
+                                        color: 'white',
+                                        fontSize: "23px",
                                     }}>{el.name}</h1>
+                                    <h2 style={{
+                                        width: "200px",
+                                        color: "gray",
+                                        fontSize: "15px",
+                                    }}>{el.character && el.character}</h2>
                                 </div>
 
                             ))

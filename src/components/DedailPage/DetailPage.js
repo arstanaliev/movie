@@ -38,7 +38,11 @@ const DetailPage = () => {
                 <div className="container">
                     <div className="detail">
                         <div className="detail-title">
-                            <img src={`https://www.themoviedb.org/t/p/w220_and_h330_face${poster_path}`} alt=""/>
+                            <div>
+                                <img src={`https://www.themoviedb.org/t/p/w220_and_h330_face${poster_path}`} alt="" style={{
+                                    width: "300px"
+                                }}/>
+                            </div>
                             <div>
                                 <h1>{original_title}</h1>
                                 <h4><p>{release_date}</p> <span><GoPrimitiveDot/></span>
